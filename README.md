@@ -1,1 +1,13 @@
 # MMP_Intern
+This repository contains the work completed during my data analytics internship at Miss Misso Production. The main objective of this project was to perform a comprehensive Exploratory Data Analysis (EDA) on a lung cancer survey dataset. The analysis aimed to uncover hidden patterns, understand the distribution of key health and lifestyle factors, and explore their possible relationships with lung cancer diagnosis.
+
+The dataset consisted of 276 unique responses collected through a health survey, containing demographic details such as age and gender, lifestyle habits like smoking and alcohol consumption, and various symptoms such as fatigue, coughing, and wheezing. The target variable was lung cancer diagnosis, labeled as "YES" or "NO."
+
+The project began with a thorough data cleaning process. I checked for missing values, examined the dataset structure, identified data types, and removed duplicate entries to ensure data integrity. Each column was inspected for unique values to better understand the encoding used — where most binary features were represented as 1 (No) and 2 (Yes), later considered for transformation.
+
+Following data preparation, I conducted an in-depth Exploratory Data Analysis using Python in Google Colab, utilizing libraries such as pandas for data handling, NumPy for numerical operations, and seaborn and matplotlib for data visualization. I created several plots to visualize gender distribution, age grouping, smoking status, and lung cancer prevalence. One key step involved categorizing the AGE column into 10-year intervals to identify which age groups were more vulnerable to lung cancer.
+
+From the analysis, I observed that a large majority of participants were diagnosed with lung cancer, with a slight male and smoker predominance. The age group of 60–70 years was the most represented among diagnosed cases, indicating higher susceptibility in elderly individuals. Interestingly, both smokers and non-smokers had high lung cancer counts, showing that smoking is a risk factor but not the only contributor. Additionally, a correlation heatmap revealed notable positive relationships between variables such as yellow fingers and anxiety, as well as wheezing and shortness of breath, which are medically consistent.
+
+Overall, this project helped me develop a strong understanding of the EDA process and its role in deriving actionable insights from raw health data. All steps, from data cleaning to visualization and interpretation, are documented clearly in the provided notebook and report. This experience strengthened my skills in Python, data handling, and storytelling through data, and laid a strong foundation for future work in data science and analytics.
+
